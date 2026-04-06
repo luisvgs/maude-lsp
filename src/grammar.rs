@@ -11,10 +11,12 @@ pub const KEYWORDS: &[&str] = &[
     "comm",
     "assoc",
     "var",
+    "pr",
     "vars",
 ];
 
 // Note that, internally, Maude doesn't have list and float data types.
 pub const TYPES: &[&str] = &[
-    "Nat", "Bool", "BOOL", "STRING", "String", "Float", "List", "LIST",
+    "Int", "INT", "Nat", "NAT", "Bool", "BOOL", "STRING", "String", "Float", "FLOAT", "List",
+    "LIST",
 ];
